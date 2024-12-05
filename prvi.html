@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="godine()"> Krekiraj nalog</button>
+       <script>
+
+        function godine(){
+        let i = prompt("Da li ste punoletni?");
+        if(i=="da"||i=="Da")
+       {
+       open("signin.html");
+       }
+       else if(i=="ne"|| i=="Ne"){
+        alert("Zaao nam je ali ne možete kreirati nalog na našem sajtu jer niste punoletni.");
+       }
+       else{
+        alert("pogresan unos");
+       }
+
+    }
+
+        </script>
+
+
+
+
+</body>
+</html>

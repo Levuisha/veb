@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="polugodiste()">Datum</button>
+
+    <style>
+      button{
+         width: 200px;
+         height:400px;
+         background-color: red;
+         font-family: 'Times New Roman', Times, serif;
+         text-align: left;
+         color:aqua;
+         margin: 20%;
+
+      }
+
+    </style>
+        <script>
+            function polugodiste(){
+                let trenutnidatum=new Date();
+                let kraj=new Date();
+                kraj.setDate(23);
+                kraj.setMonth(11);
+                kraj.setFullYear(2024);
+                let razlika = kraj-trenutnidatum;
+                razlika= Math.floor(razlika/(1000*24*60*60));
+                alert("Do kraja polugodista ima jos " + razlika + " dana");
+
+            }
+
+          
+        </script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Background</title>
+    <style>
+        
+    </style>
+</head>
+<body onload="pozadina()">
+    <script>
+        // Niz sa URL-ovima slika
+        let niz = ["api.png", "api 2.png", "apple neon.png", "application.png"];
+
+        // Funkcija za promenu pozadine
+        function pozadina() {
+            let broj = Math.floor(Math.random() * niz.length); // Generisanje nasumičnog indeksa
+            document.body.style.backgroundImage = 'url(' + niz[broj] + ')'; // Postavljanje pozadine
+        }
+    </script>
+</body>
+</html>

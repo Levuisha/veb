@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+
+
+    
+    <script>
+        function broj (){
+            return Math.floor(Math.random()*256);
+          
+         
+        }
+  function boja(){
+    document.body.style.backgroundColor = 'rgb(' + broj() + ',' + broj() + ',' + broj() + ')';
+
+  }
+        
+
+        setInterval(boja,2000);
+    </script>
+    
+</body>
+</html>
