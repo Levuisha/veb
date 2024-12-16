@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #FEFA97;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    
+}
+.title{
+    margin-top: 15px;
+}
+.title_under{
+    margin-top: 20px;
+}
+.nav{
+    background-color: #C3FFA9;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav a{
+    float: left;
+    text-decoration: none;
+    height: 50px;
+    width: 266px;
+    color: black;
+    line-height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a:hover{
+    background-color: #487F2E;
+    color: #FEFA97;
+}
+
+.granice_srbije{
+    background-image: url(img/rsz_bg.png);
+    width: 1000px;
+    height: 1431px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.granice_srbije div img{
+    width: 50px;
+    position: absolute;
+}
+.granice_srbije .madjarska img{
+    top: 2%;
+    left: 2%;
+}
+
+.granice_srbije .rumunija img{
+    top: 15%;
+    left: 75%;
+}
+
+.granice_srbije .hrvatska img{
+    top: 17%;
+    left: 1%;
+}
+
+.granice_srbije .bosna img{
+    top: 45%;
+    left: 1%;
+}
+
+.granice_srbije .srbija img{
+    top: 48%;
+    left: 47%;
+}
+
+.granice_srbije .crna_gora img{
+    top: 70%;
+    left: 10%;
+}
+
+.granice_srbije .bugarska img{
+    top: 85%;
+    left: 90%;
+}
+
+.granice_srbije .albanija img{
+    top: 90%;
+    left: 27%;
+}
+
+.granice_srbije .makedonija img{
+    top: 94%;
+    left: 65%;
+}
